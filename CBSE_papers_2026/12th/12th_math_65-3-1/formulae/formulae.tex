@@ -1,0 +1,36 @@
+\begin{enumerate}[label=\textbf{1.1.\arabic*.},ref=1.1.\arabic*]
+\setlength{\itemsep}{0.35em}
+\item \label{formula-1-1-1} \textbf{Matrix products and inverses.} If $A$ is $m\times n$ and $B$ is $n\times p$, then $AB$ is $m\times p$. For a square nonsingular matrix,
+\begin{equation*}\tag{1.1.1.1}
+A^{-1}=\frac{\operatorname{adj}A}{\det A},\qquad A\operatorname{adj}A=(\det A)I.
+\end{equation*}
+\item \label{formula-1-1-2} \textbf{Inverse from a matrix identity.} If $A^2+\alpha A+\beta I=0$ and $\beta\ne0$, then $A^{-1}=-(A+\alpha I)/\beta$.
+\item \label{formula-1-1-3} \textbf{Continuity, derivatives, and extrema.} $f$ is continuous at $a$ when $\lim_{x\to a}f(x)=f(a)$. At an interior local extremum of a differentiable function, $f\prime(a)=0$. The derivative is $f'(a)=\lim_{h\to0}\frac{f(a+h)-f(a)}h$; the chain rule is $\frac{d}{dx}F(g(x))=F'(g(x))g'(x)$.
+\item \label{formula-1-1-4} \textbf{Useful derivatives.}
+\begin{equation*}\tag{1.1.4.1}
+\frac{d}{dx}\tan x=\sec^2x,\qquad
+\frac{d}{dx}\ln x=\frac1x,\qquad
+\frac{d}{dx}e^x=e^x.
+\end{equation*}
+\item \label{formula-1-1-5} \textbf{Useful integrals.}
+\begin{equation*}\tag{1.1.5.1}
+\int\frac{dx}{a^2+x^2}=\frac1a\tan^{-1}\!\frac xa+C,\qquad
+\int\frac{dx}{\sqrt{a^2-x^2}}=\sin^{-1}\!\frac xa+C.
+\end{equation*}
+For the exponential form used in the paper, $\int\frac{dx}{2^x+2^{-x}}=\frac{\tan^{-1}(2^x)}{\ln2}+C$. If $f(x)\ge0$, the area under $y=f(x)$ from $a$ to $b$ is $\int_a^b f(x)\,dx$.
+\item \label{formula-1-1-6} \textbf{Symmetry in definite integrals.} If $f$ is even, $\int_{-a}^{a}f(x)\,dx=2\int_0^a f(x)\,dx$. If $f(x)+f(\pi/2-x)=1$ on $[0,\pi/2]$, then $\int_0^{\pi/2}f(x)\,dx=\pi/4$.
+\item \label{formula-1-1-7} \textbf{Homogeneous differential equations.} For $dy/dx=F(y/x)$, use $y=vx$, so $dy/dx=v+x\,dv/dx$; the resulting equation is separable.
+\item \label{formula-1-1-8} \textbf{Probability.}
+\begin{equation*}\tag{1.1.8.1}
+P(A\cup B)=P(A)+P(B)-P(A\cap B),\quad
+P(A\mid B)=\frac{P(A\cap B)}{P(B)}.
+\end{equation*}
+For independent events, $P(A\cap B)=P(A)P(B)$.
+\item \label{formula-1-1-9} \textbf{Vectors.} $\vec a\cdot\vec b=|\vec a||\vec b|\cos\theta$; perpendicular nonzero vectors have $\vec a\cdot\vec b=0$. Triangle area is $\frac12|\vec a\times\vec b|$ for two side vectors.
+\item \label{formula-1-1-10} \textbf{Linear programming.} A linear objective reaches its maximum or minimum at a vertex of the feasible region; evaluate the objective at every feasible vertex.
+\item \label{formula-1-1-11} \textbf{Lines and distance in 3D.} A line through $\vec a$ with direction $\vec d$ is $\vec r=\vec a+t\vec d$. Two direction vectors are perpendicular when $\vec d_1\cdot\vec d_2=0$. For skew lines with direction vectors $\vec d_1,\vec d_2$ through $\vec a_1,\vec a_2$,
+\begin{equation*}\tag{1.1.11.1}
+d=\frac{|(\vec a_2-\vec a_1)\cdot(\vec d_1\times\vec d_2)|}{|\vec d_1\times\vec d_2|}.
+\end{equation*}
+\item \label{formula-1-1-12} \textbf{Bayes' theorem.} $P(A_i\mid B)=\frac{P(B\mid A_i)P(A_i)}{\sum_jP(B\mid A_j)P(A_j)}$ for a partition $\{A_j\}$.
+\end{enumerate}
