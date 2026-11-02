@@ -1,0 +1,24 @@
+# Fdb version 4
+["pdflatex"] 1793619419.87415 "main.tex" "main.pdf" "main" 1793619420.26905 2
+  "/data/data/com.termux/files/usr/share/texlive/2026.0/texmf-dist/web2c/texmf.cnf" 1789653563 43838 788b409ca7f6d70214933fbc221adf76 ""
+  "/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
+  "/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmbi7t.tfm" 1136768653 2228 e564491c42a4540b5ebb710a75ff306c ""
+  "/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm" 1136768653 2124 2601a75482e9426d33db523edf23570a ""
+  "/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm" 1136768653 2288 f478fc8fed18759effb59f3dad7f3084 ""
+  "/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty" 1734129479 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
+  "/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
+  "/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty" 1772916678 41904 7711079366884e0d15963c9d40019853 ""
+  "/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty" 1748806692 2671 d9941f4bf4750e9b0603c9a2ec54693b ""
+  "/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/ieeetran/IEEEtran.cls" 1440712899 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
+  "/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1137110629 961 15056f4a61917ceed3a44e4ac11fcc52 ""
+  "/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/tfrupee/tfrupee.sty" 1292543924 424 a47f1b52cb407ee9e00dd6837919bbbd ""
+  "/data/data/com.termux/files/usr/share/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1777904360 3648643 fdf108452feb6e7eb41d3118e18221a0 ""
+  "gvv-book.sty" 0 -1 0 ""
+  "main.aux" 1793619411.86622 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.tex" 1793619413.27022 1958 19b358b4a788070bd50bee209fed2800 ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.pdf"
+  (rewritten before read)
