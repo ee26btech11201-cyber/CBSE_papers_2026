@@ -21,23 +21,35 @@
 \usepackage{amsfonts}
 \makeindex
 
+% The paper files reuse local label names; prefix each paper's labels and refs
+% so their formula and figure links remain distinct in this combined document.
+\newcommand{\paperlabelprefix}{}
+\let\cbseOriginalLabel\label
+\makeatletter
+\renewcommand{\label}[1]{%
+    \edef\cbse@labelkey{\paperlabelprefix:#1}%
+    \expandafter\cbseOriginalLabel\expandafter{\cbse@labelkey}}
+\AtBeginDocument{%
+    \global\let\cbseOriginalRef\ref
+    \renewcommand{\ref}[1]{%
+        \edef\cbse@refkey{\paperlabelprefix:#1}%
+        \expandafter\cbseOriginalRef\expandafter{\cbse@refkey}}}
+\makeatother
+
 \begin{document}
 \bibliographystyle{IEEEtran}
 \onecolumn
 
 \title{
     \begin{center}
-        CBSE 2026\\
-        10th Class Maths\\
-        Solutions (65-3-1)
-        \\
+        CBSE 2026 Class 10 and 12 Papers\\
         \rule{0.4\columnwidth}{0.4pt}
     \end{center}
 }
 \author{
     \vspace{11cm}
     \begin{center}
-        \includegraphics[width=0.2\columnwidth]{figs/logo.jpg}
+        \includegraphics[width=0.2\columnwidth]{10/figs/logo.jpg}
         \\
         {\huge G. V. V. Sharma}
     \end{center}
@@ -69,16 +81,26 @@ In this edition, some incorrect solutions were removed. All figures
 redrawn. More problems added.
 
 \newpage
-\onecolumn
-\begin{center}
-{\Large\bfseries CBSE 2026 10th class maths solutions (65-3-1)}
-\end{center}
-\vspace{0.4em}
-
-\section*{Formulae}
-\input{10/10th_math_65-3-1/formulae/formulae.tex}
+\tableofcontents
 \newpage
-\section*{Solved Questions}
-%\input{chapters/65-3-1.tex}
+
+\section{Class 10}
+\subsection{Formulae}
+\renewcommand{\paperlabelprefix}{10-65-3-1}
+\input{10/formulae/formulae.tex}
+\subsection{Solved Questions}
+\renewcommand{\paperlabelprefix}{10-65-3-1}
+\graphicspath{{10/}}
+\input{10/chapters/65-3-1.tex}
+\clearpage
+
+\section{Class 12}
+\subsection{Formulae}
+\renewcommand{\paperlabelprefix}{12-65-3-1}
+\input{12/formulae/formulae.tex}
+\subsection{Solved Questions}
+\renewcommand{\paperlabelprefix}{12-65-3-1}
+\graphicspath{{12/}}
+\input{12/chapters/65-3-1.tex}
 
 \end{document}
